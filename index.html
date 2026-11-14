@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PR10 Async</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="controls">
+            <input type="text" id="cart-id-input" placeholder="Cart id..." value="1">
+            <button id="load-cart-btn">Завантажити кошик</button>
+        </div>
+        <label>
+            <input type="checkbox" id="test-fail-checkbox"> 
+            Тестовий режим (помилка на 1-й спробі)
+        </label>
+        <div id="status">Стан запиту:</div>
+        <div class="cart-data-container"></div>
+        <div class="error-container"></div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
